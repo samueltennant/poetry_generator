@@ -8,6 +8,31 @@ document.addEventListener("DOMContentLoaded", async () => {
     const sentence = randomSentence(words);
     poetryText.textContent = sentence;
   });
+
+  const form = document.getElementById("custom-form");
+  const adjective = document.getElementById("adjective");
+  const noun = document.getElementById("noun");
+  const verb = document.getElementById("verb");
+  const adverb = document.getElementById("adverb");
+
+  form.addEventListener("submit", (e) => {
+    e.preventDefault();
+
+    if (
+      adjective.value == "" ||
+      noun.value == "" ||
+      verb.value == "" ||
+      adverb.value == ""
+    ) {
+      return;
+    }
+
+    const sentence = `The ${adjective.value} ${noun.value} ${verb.value} ${adverb.value}.`;
+    poetryText.textContent = sentence;
+  });
+
+  // Start with a random sentence.
+  poetryText.textContent = randomSentence(words);
 });
 
 function randomSentence(words) {
