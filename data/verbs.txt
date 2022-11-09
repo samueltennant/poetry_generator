@@ -1,0 +1,6 @@
+eats
+walks
+runs
+sleeps
+lies
+plays
