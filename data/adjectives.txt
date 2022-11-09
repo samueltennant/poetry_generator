@@ -1264,7 +1264,6 @@ vital
 vivacious
 vivid
 voluminous
-wan
 warlike
 warm
 warmhearted
@@ -1344,4 +1343,3 @@ yummy
 zany
 zealous
 zesty
-zigzag

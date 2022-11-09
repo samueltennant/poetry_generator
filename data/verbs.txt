@@ -4,3 +4,14 @@ runs
 sleeps
 lies
 plays
+plans
+writes
+waits
+arrives
+behaves
+blinks
+looks
+begs
+cooks
+asks
+applauds
